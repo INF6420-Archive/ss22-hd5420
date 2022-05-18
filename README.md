@@ -17,6 +17,7 @@ Main content- Purpose of site
 Footer-Will contain copyright or CC information and social media links, and any disclaimers
 
 ![Wireframe of About Page](wireframes/wireframe2.jpeg)
+
 Header-will include my name and site title
 
 Navigation Menu-will include links to other pages including a contact page, about page, and link back to home page
