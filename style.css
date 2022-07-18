@@ -57,11 +57,10 @@ footer {
     font-size: small;
 }
 .grad {
-    height: 50%;
-    width: 50%;
+  max-height: 50%;
+  max-width: 50%;
 }
 .coffee {
-    text-align:center;
     display: block;
     height: 50%;
     width: 50%;
@@ -83,7 +82,6 @@ footer {
     text-decoration: none;
   }
 .featured-image-container {
-    align-items: left;
     padding: 10px;
 }
 .intro {
