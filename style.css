@@ -57,11 +57,11 @@ footer {
     font-size: small;
 }
 .grad {
-    height: 50%;
-    width: 50%;
+     display: block;
+     max-height: 80%;
+    max-width: 80%;
 }
 .coffee {
-    text-align:center;
     display: block;
     height: 50%;
     width: 50%;
@@ -83,7 +83,6 @@ footer {
     text-decoration: none;
   }
 .featured-image-container {
-    align-items: left;
     padding: 10px;
 }
 .intro {
@@ -100,17 +99,18 @@ footer {
 }
 .work1 {
     color: #573E3E;
-    line-height: 30px;
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.about {
-    color: #573E3E;
-    text-align: center;
     line-height: 20px;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5px;
+}
+.about {
+    color: #573E3E;
+    text-align: left;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    padding-left: 5px;
 }
 .fa-brands {
     padding: 2px;
@@ -173,4 +173,9 @@ textarea {
         width: 50%;
         margin: 1em auto;
 }
+}
+.stack {
+    display: block;
+    max-height: 50%;
+   max-width: 50%;
 }
